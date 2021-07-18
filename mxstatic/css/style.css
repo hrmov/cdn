@@ -846,6 +846,13 @@ input[type=checkbox] {
 	background: #eaedf1
 }
 
+
+.video-player-handle .handle-btn em {
+	background: #34a853;
+	background: linear-gradient(90deg, #7ec53d, #34a853)
+}
+
+
 .btn-gray-dark {
 	background: #d7dae1
 }
@@ -1864,7 +1871,7 @@ a.btn-large.btn-collect:hover {
 	margin: 15px 10px
 }
 
-.header-module .nav-menu-item:nth-child(-n+3) {
+.header-module .nav-menu-item:nth-child(-n+2) {
 	display: none
 }
 
@@ -3344,11 +3351,20 @@ a.btn-large.btn-collect:hover {
 	color: #8f8f8f
 }
 
+.video-player-handle .handle-btn em:hover
+{
+	color: #fff
+}
+
 .video-player-handle .handle-btn em {
-	border-radius: 5px 5px 0 5px;
+	color: rgba(7, 7, 10, .92);
+	position: absolute;
 	top: 0;
 	right: 0;
-	color: rgba(7, 7, 10, .92)
+	z-index: 3;
+	transform: scale(.78);
+	transform-origin: top right;
+	border-radius: 5px 5px 0 5px
 }
 
 .video-player-handle .drop:hover .handle-btn,
@@ -7402,7 +7418,7 @@ textarea.form-control {
 	margin: 0 21px 0 24px
 }
 
-.gmmxone{z-index:19;}
+.gmmxone{z-index:1;}
 
 .list .list-item .item .tag {
 	display: inline-block;
@@ -7461,5 +7477,84 @@ textarea.form-control {
 }
 .w100{width:100%!important;}
   .shrink,.morecontent{color: #ff2a14; cursor: pointer;}
-/*.f26{font-size:26px!important;}*/
 .dbiconys{display:none;}
+
+
+ .mx-mac_msg_jump {
+	box-shadow:0 7px 21px rgba(149,157,165,.22);
+	margin:35px auto;
+	padding:50px 25px;
+	width:100%;
+	border-radius:4px
+}
+.mx-mac_msg_jump .msg_jump_tit {
+	margin-bottom:25px;
+	text-align:center;
+	line-height:26px;
+	color:#222;
+	font-size:1.5rem;
+	font-weight:700
+}
+.mx-mac_msg_jump .text {
+	margin-bottom:10px;
+	color:#222;
+	font-size:14px
+}
+.mx-mac_msg_jump .title {
+	margin-bottom:10px;
+	color:#666;
+	font-size:14px
+}
+@media (min-width:768px) {
+	.mx-mac_msg_jump {
+	margin:35px auto;
+	padding:50px;
+	width:400px
+}
+}.mx-mac_msg_jump .form .item1 {
+	position:relative;
+	border:1px solid;
+	border-radius:4px;
+	line-height:43px;
+	border-color:#f2f2f2
+}
+.mx-mac_msg_jump .form .item1 input {
+	display:inline-block;
+	padding:0 10px;
+	width:65%;
+	border:none;
+	background:0 0;
+	line-height:inherit
+}
+.mx-mac_msg_jump .form .item1 .get-pwd {
+	float:right;
+	display:inline-block;
+	padding-right:10px;
+	width:35%;
+	text-align:right;
+	line-height:inherit;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap
+}
+
+.btnpwd {
+	display:inline-block;
+	margin-top:25px;
+	width:100%;
+	border:none;
+	border-radius:4px;
+	line-height:45px;
+	cursor:pointer;
+	text-align:center;
+	background:#ff2a14;
+	color:#fff
+}
+.btnpwd:hover {
+	background:linear-gradient(90deg,#ff9800,#ff2a14) !important;
+	color:#fff
+}
+.btnlogin{display:inline-block;margin:5px 10px 0;padding:0 32px;border-radius:32px;line-height:36px;background:#ff2a14;color:#fff;}.btnlogin:hover{background:linear-gradient(90deg,#ff9800,#ff2a14) !important;color:#fff;}.btncz{display:inline-block;margin:5px 10px 0;padding:0 32px;border-radius:32px;line-height:36px;border:1px solid #ff2a14;color:#ff2a14;}
+.item1 input:-webkit-autofill {
+	-webkit-box-shadow:0 0 0px 1000px white inset
+}

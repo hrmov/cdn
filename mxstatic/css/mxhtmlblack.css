@@ -584,3 +584,18 @@ a.text-list-item {
 .text-list-item:nth-child(n+4):hover {
 	background: #32323c
 }
+
+.mx-mac_msg_jump{
+    box-shadow: 0 0 0 0;
+}
+.mx-mac_msg_jump .msg_jump_tit{
+        color: hsla(0, 0%, 100%, .87);}
+.mx-mac_msg_jump .text{
+          color: hsla(0, 0%, 100%, .87); 
+}     
+.item1 input:-webkit-autofill {
+	-webkit-box-shadow:0 0 0px 1000px #212124  inset
+}
+.mx-mac_msg_jump .form .item1{
+    border-color: #212124;
+}

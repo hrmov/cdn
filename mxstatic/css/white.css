@@ -615,3 +615,18 @@ a.text-list-item {
 .text-list-title p {
 	color: #282828;
 }
+
+.mx-mac_msg_jump{
+   	box-shadow:0 7px 21px rgba(149,157,165,.22);
+}
+.mx-mac_msg_jump .msg_jump_tit{
+     	color:#222;}
+.mx-mac_msg_jump .text{
+         	color:#222;
+}     
+.item1 input:-webkit-autofill {
+	-webkit-box-shadow:0 0 0px 1000px #fff  inset
+}
+.mx-mac_msg_jump .form .item1{
+	border-color:#f2f2f2
+}
